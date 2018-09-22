@@ -1,10 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
+    <div class="linki" style="height: 50vh">
+        <!--        link do zewnetrznego zrodla-->
+        <a href="https://google.com" target="_blank">google</a>
+
+        <!--   link do wewnetrznych-->
+        <a href="contact.html">contact</a>
+        <a href="#team">team</a>
+
+        <a href="mailto:olga-pojan@wp.pl">mail</a>
+
+        <a href="tel:+48690963220">telefon</a>
+
+    </div>
+
+    <div class="tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nr</th>
+                    <th>Nazwa</th>
+                    <th>Cena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>owoce</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>kawa</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>cos</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     
+    
+    <div class="form">
+        <form action="" method="">
+           <label for="name">Imię</label>
+            <input type="text" name="name" id="name">
+            <input type="email" name="email" required>
+            <input type="number" name="number" placeholder="podaj numer">
+            <input type="checkbox" name="checkbox">
+            
+            <input type="radio" name="woda">
+            <input type="radio" name="woda">
+            
+            <select name="" id="">
+                <option value="">123</option>
+                <option value="">456</option>
+                <option value="">789</option>
+            </select>
+            
+            <textarea maxlength="10" name="textarea" id="msg" cols="30" rows="10"></textarea>
+            
+            <input type="submit" value="Buy">
+        </form>
+    </div>
+
+    <section id="team" style="height: 100vh">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nisi voluptatem, recusandae mollitia explicabo error cumque quisquam. Eos, itaque, adipisci!</p>
+    </section>
 </body>
+
 </html>
